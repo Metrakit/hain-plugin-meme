@@ -1,0 +1,31 @@
+{
+  "name": "hain-plugin-meme",
+  "version": "0.0.1",
+  "description": "hain plugin to search a meme on giphy.com",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metrakit/hain-plugin-meme.git"
+  },
+  "author": "Jordane JOUFFROY",
+  "license": "MIT",
+  "keywords": [
+    "hain0"
+  ],
+  "bugs": {
+    "url": "https://github.com/metrakit/hain-plugin-meme/issues"
+  },
+  "homepage": "https://github.com/metrakit/hain-plugin-meme",
+  "dependencies": {
+    "got": "^6.2.0",
+    "lodash": "^4.6.1",
+    "copy-paste": "^1.1.4"
+  },
+  "hain": {
+    "prefix": "/meme",
+    "usage": "/meme an awesome meme",
+    "icon": "/logo.png",
+    "redirect": "/meme "
+  }
+}
