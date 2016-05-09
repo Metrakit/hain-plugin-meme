@@ -1,7 +1,7 @@
 {
   "name": "hain-plugin-meme",
-  "version": "0.0.1",
-  "description": "hain plugin to search a meme on giphy.com",
+  "version": "0.0.2",
+  "description": "hain plugin for generate easily some memes",
   "main": "index.js",
   "scripts": {},
   "repository": {
