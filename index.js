@@ -38,7 +38,7 @@ module.exports = (context) => {
 
     if (query_parts.length === 3) {
       return _.forEach(tpls, (url, name) => {
-        url = _.replace(url, 'templates/', '');
+        url = _.replace(url, 'api/templates/', '');
         url += '/' + encodeURIComponent(query_parts[0]) + '/' + encodeURIComponent(query_parts[1]) + '.jpg';
         res.add({
             id: url,
