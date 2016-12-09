@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-meme",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "hain plugin for generate easily some memes",
   "main": "index.js",
   "scripts": {},
